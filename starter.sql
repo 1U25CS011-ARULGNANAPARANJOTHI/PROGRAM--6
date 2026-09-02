@@ -6,7 +6,8 @@ CREATE TABLE Student (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL,
     Gender VARCHAR(10),
-    DepartmentID INT);
+    DepartmentID INT
+);
 desc Student;
 
 INSERT INTO Student (StudentID, StudentName, Gender, DepartmentID)
